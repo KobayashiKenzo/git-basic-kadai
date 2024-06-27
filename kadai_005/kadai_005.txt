@@ -1,0 +1,13 @@
+PS C:\kobayashikenzo> mkdir git_challenge
+PS C:\kobayashikenzo> cd git_challenge
+PS C:\kobayashikenzo\git_challenge> git init
+PS C:\kobayashikenzo\git_challenge> type nul > hello_world.txt
+PS C:\kobayashikenzo\git_challenge> git config --global user.name "KobayashiKenzo"
+PS C:\kobayashikenzo\git_challenge> git config --global user.email "kenzo@kobayashi.link"
+PS C:\kobayashikenzo\git_challenge> git add hello_world.txt
+PS C:\kobayashikenzo\git_challenge> git commit -m "テキストファイルの登録"
+PS C:\kobayashikenzo\git_challenge> git add hello_world.txt
+PS C:\kobayashikenzo\git_challenge> git commit -m "一行目追加"
+PS C:\kobayashikenzo\git_challenge> git add .
+PS C:\kobayashikenzo\git_challenge> git commit -m "日本語訳を追記"
+PS C:\kobayashikenzo\git_challenge> git log --oneline
